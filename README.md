@@ -43,4 +43,4 @@ sudo ./build_with_git.sh # Or ./build_with_pip.sh
 sudo chown -R "$UID:${GROUPS[0]}" dolfin mshr
 ```
 
-To use dolfin we will have to enter the container by `toolbox enter -c dolfin`.
+To use dolfin we will have to exit by `exit` and then re-enter the container by `toolbox enter -c dolfin`.
